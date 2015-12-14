@@ -1,0 +1,28 @@
+{
+    "nav": {
+        "faq": "FAQ",
+        "tos": "TOS",
+        "home": "HOME"
+    },
+    "header": {
+        "beta": {
+            "title": "Awesome. Website. Project.",
+            "subtitle": "Let's see what we can do !"
+        }
+    },
+    "email": {
+        "placeholder": "Email Address",
+        "subscribe": "Subscribe",
+        "notified": "Get notified when a new version is available"
+    },
+    "footer": {
+    	"love": "Made with <span>&#10084;</span> by Travis Supertramp",
+    	"status": "Status",
+    	"faq": "FAQ",
+        "tos": "Terms of Service",
+        "con": "Contact us / About"
+    },
+    "date":{
+        "month": ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+    }
+}
