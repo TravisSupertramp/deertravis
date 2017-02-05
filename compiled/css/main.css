@@ -440,9 +440,10 @@ span.code {
 }
 #header .text {
   z-index: 2;
+  padding-right: 27vw;
 }
 #header h2 {
-  margin-top: 35vh;
+  margin-top: 37vh;
   font-size: 32px;
   line-height: 48px;
   z-index: 2;
@@ -589,6 +590,7 @@ span.code {
   color: #fff;
   font-size: 44px;
   line-height: 54px;
+  -webkit-transition: all 0.8s ease-in-out;
 }
 .gallery-link:hover {
   opacity: 0.7;
@@ -612,6 +614,50 @@ span.code {
 .gallery-link:hover:before,
 .gallery-link:focus:before,
 .gallery-link:active:before {
+  right: 0;
+}
+.contact-link {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  z-index: 2;
+  font-family: 'Montserrat Ultralight';
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  line-height: 54px;
+  -webkit-transition: all 0.8s ease-in-out;
+}
+.contact-link:hover {
+  opacity: 0.7;
+}
+.contact-link:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  top: 0;
+  background: #fff;
+  height: 5px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.contact-link:hover:before,
+.contact-link:focus:before,
+.contact-link:active:before {
   right: 0;
 }
 #logo {
@@ -700,6 +746,31 @@ span.code {
   nav .align-right {
     display: none;
   }
+}
+#gallery {
+  width: 100%;
+  font-family: 'Montserrat Light';
+  text-align: center;
+  overflow: hidden;
+  padding: 10%;
+  background-color: #eee;
+}
+#gallery .video-thumbnail {
+  height: 275px;
+  width: 490px;
+  overflow: hidden;
+  box-shadow: 0 0 1px #000;
+}
+#gallery .thumbnail-footer p {
+  padding-bottom: 150px;
+  text-color: #00f;
+}
+#gallery .sliding-up {
+  box-shadow: 0 0 1px #000;
+  transition: transform 0.4s ease-in-out;
+}
+#gallery .sliding-up:hover {
+  transform: translateY(-50px);
 }
 #features {
   padding: 35px 0;
