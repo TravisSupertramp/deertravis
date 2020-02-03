@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+h1 {
+  cursor: pointer;
+}
+
+#main {
+  z-index: 0;
+  height: 100vh;
+  background: url("../images/bg-header-bg.png") no-repeat center top #203041;
+  background-size: cover;
+  font-family: 'Montserrat Light';
+  text-align: center;
+  overflow: hidden;
+  /*padding-top: 3vh;*/
+  box-sizing: border-box;
+  transform: translateX(0);
+  color: #fff;
+}
+
+.header-logo {
+  padding: 20px 0px 20px 0px;
+}
+
+.footer-container {
+  background: #203041;
+  height: 500px;
+}
+
+.explosion-bg {
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.explosion {
+  z-index: 2;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
